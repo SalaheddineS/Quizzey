@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         btnStart = findViewById(R.id.button);
         btnStart.setOnClickListener(v -> {
             try {
-                startActivity(new Intent(MainActivity.this, QuizzActivity.class));
+                startActivity(new Intent(MainActivity.this,LanguageActivity.class));
             }
             catch (Exception e) {
                 e.printStackTrace();

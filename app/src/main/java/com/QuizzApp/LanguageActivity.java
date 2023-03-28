@@ -20,7 +20,10 @@ public class LanguageActivity extends AppCompatActivity {
         Spanish = findViewById(R.id.level3);
         English.setOnClickListener(v -> {
             try {
-                startActivity(new Intent(LanguageActivity.this, LevelActivity.class));
+                Intent intent =new Intent(LanguageActivity.this, LevelActivity.class);
+                intent.putExtra("language","english");
+
+                startActivity(intent);
             }
             catch (Exception e) {
                 e.printStackTrace();
@@ -28,7 +31,9 @@ public class LanguageActivity extends AppCompatActivity {
         });
         French.setOnClickListener(v -> {
             try {
-                startActivity(new Intent(LanguageActivity.this, LevelActivity.class));
+                Intent intent =new Intent(LanguageActivity.this, LevelActivity.class);
+                intent.putExtra("language","french");
+                startActivity(intent);
             }
             catch (Exception e) {
                 e.printStackTrace();
@@ -36,7 +41,9 @@ public class LanguageActivity extends AppCompatActivity {
         });
         Spanish.setOnClickListener(v -> {
             try {
-                startActivity(new Intent(LanguageActivity.this, LevelActivity.class));
+                Intent intent =new Intent(LanguageActivity.this, LevelActivity.class);
+                intent.putExtra("language","spanish");
+                startActivity(intent);
             }
             catch (Exception e) {
                 e.printStackTrace();
