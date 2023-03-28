@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adventure_time_nawpic"
+    android:orientation="vertical">
+
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#00FFFFFF" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="78dp"
+        android:layout_height="77dp"
+        android:layout_gravity="center"
+        android:background="@drawable/circle"
+        android:backgroundTint="#06348F"
+        android:fontFamily="monospace"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:gravity="center"
+        android:isScrollContainer="false"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:shadowColor="#000000"
+        android:shadowRadius="10"
+        android:text="1"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FF0000"
+        android:textSize="24sp"
+        app:iconTint="#00FFFFFF"
+        app:iconTintMode="src_atop" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        android:src="@drawable/_5792d1ad216fb39b2b82d56f028e88e" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:fontFamily="casual"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Question 1"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="333dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:backgroundTint="#06348F"
+        android:fontFamily="monospace"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:gravity="center"
+        android:isScrollContainer="false"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:shadowColor="#000000"
+        android:shadowRadius="10"
+        android:text="1"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FF0000"
+        android:textSize="24sp"
+        app:iconTint="#00FFFFFF"
+        app:iconTintMode="src_atop" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="333dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:backgroundTint="#06348F"
+        android:fontFamily="monospace"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:gravity="center"
+        android:isScrollContainer="false"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:shadowColor="#000000"
+        android:shadowRadius="10"
+        android:text="1"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FF0000"
+        android:textSize="24sp"
+        app:iconTint="#00FFFFFF"
+        app:iconTintMode="src_atop" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="333dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:backgroundTint="#06348F"
+        android:fontFamily="monospace"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:gravity="center"
+        android:isScrollContainer="false"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:shadowColor="#000000"
+        android:shadowRadius="10"
+        android:text="1"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FF0000"
+        android:textSize="24sp"
+        app:iconTint="#00FFFFFF"
+        app:iconTintMode="src_atop" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="333dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:backgroundTint="#06348F"
+        android:fontFamily="monospace"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:gravity="center"
+        android:isScrollContainer="false"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:shadowColor="#000000"
+        android:shadowRadius="10"
+        android:text="1"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FF0000"
+        android:textSize="24sp"
+        app:iconTint="#00FFFFFF"
+        app:iconTintMode="src_atop" />
+
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#00FFFFFF" />
+
+</LinearLayout>

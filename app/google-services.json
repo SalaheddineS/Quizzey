@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "698988032300",
+    "project_id": "adventuretime-469ca",
+    "storage_bucket": "adventuretime-469ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698988032300:android:1b9513e254fa8beb7a7c89",
+        "android_client_info": {
+          "package_name": "com.QuizzApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698988032300-psj3pmgr16fv8h1u45i666i47iophnu5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP7-YPxbktRTsrNZxStQjUPd0zYkMn0pk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698988032300-psj3pmgr16fv8h1u45i666i47iophnu5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

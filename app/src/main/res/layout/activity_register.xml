@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a6f8f92a14110d72597c746e81d4710a"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/a6f8f92a14110d72597c746e81d4710a"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:background="?android:attr/listDivider" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:background="#70000000"
+            app:srcCompat="@drawable/one__6__removebg_preview" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="?android:attr/listDivider" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/Yellow"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:isScrollContainer="false"
+            android:paddingStart="10dp"
+            android:shadowColor="#FF0000"
+            android:shadowRadius="10"
+            android:text="USERNAME"
+            android:textColor="#000000"
+            android:textColorHint="#FF0000"
+            android:textSize="16sp"
+            app:iconGravity="end"
+            app:iconTint="#00FFFFFF"
+            app:iconTintMode="src_atop" />
+
+        <Button
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/Yellow"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:isScrollContainer="false"
+            android:paddingStart="10dp"
+            android:shadowColor="#FF0000"
+            android:shadowRadius="10"
+            android:text="PASSWORD"
+            android:textColor="#000000"
+            android:textColorHint="#FF0000"
+            android:textSize="16sp"
+            app:iconGravity="end"
+            app:iconTint="#00FFFFFF"
+            app:iconTintMode="src_atop" />
+
+        <Button
+            android:id="@+id/cpassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/Yellow"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:isScrollContainer="false"
+            android:paddingStart="10dp"
+            android:shadowColor="#FF0000"
+            android:shadowRadius="10"
+            android:text="Confirm Password"
+            android:textColor="#000000"
+            android:textColorHint="#FF0000"
+            android:textSize="16sp"
+            app:iconGravity="end"
+            app:iconTint="#00FFFFFF"
+            app:iconTintMode="src_atop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gifImageView"
+                android:layout_width="120dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:src="@drawable/d9y5gdr_97ee3d62_9ada_4935_b6f8_df92878502df" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/black"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:isScrollContainer="false"
+                android:paddingStart="10dp"
+                android:shadowColor="#FFD600"
+                android:shadowRadius="10"
+                android:text="SUBMIT"
+                android:textColor="#FFD600"
+                android:textColorHint="#FF0000"
+                android:textSize="24sp"
+                app:iconGravity="end"
+                app:iconTint="#00FFFFFF"
+                app:iconTintMode="src_atop" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gifImageView3"
+                android:layout_width="120dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center|center_horizontal|left|center_vertical"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:src="@drawable/d9y5gdr_97ee3d62_9ada_4935_b6f8_df92878502df" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="#65000000"
+            app:srcCompat="@drawable/one__2__removebg_preview" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="91dp"
+                android:layout_height="76dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/scarlet_la_espada_dorada" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/design_default_color_error"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:isScrollContainer="false"
+                android:paddingStart="10dp"
+                android:shadowColor="#FF0000"
+                android:shadowRadius="10"
+                android:text="Go Back To Login"
+                android:textColor="#000000"
+                android:textColorHint="#FF0000"
+                android:textSize="24sp"
+                app:iconGravity="end"
+                app:iconTint="#00FFFFFF"
+                app:iconTintMode="src_atop" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="91dp"
+                android:layout_height="76dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/scarlet_la_espada_dorada" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
