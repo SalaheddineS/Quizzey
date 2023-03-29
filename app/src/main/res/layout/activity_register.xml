@@ -19,20 +19,20 @@
         <View
             android:id="@+id/divider3"
             android:layout_width="match_parent"
-            android:layout_height="33dp"
+            android:layout_height="11dp"
             android:background="?android:attr/listDivider" />
 
         <ImageView
             android:id="@+id/imageView14"
             android:layout_width="match_parent"
-            android:layout_height="310dp"
+            android:layout_height="217dp"
             android:background="#70000000"
             app:srcCompat="@drawable/one__6__removebg_preview" />
 
         <View
             android:id="@+id/divider2"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
+            android:layout_height="11dp"
             android:background="?android:attr/listDivider" />
 
         <Button
@@ -81,27 +81,111 @@
             app:iconTintMode="src_atop" />
 
         <Button
-            android:inputType="textPassword"
-            android:ellipsize="end"
-            android:maxLines="1"
             android:id="@+id/cpassword"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:backgroundTint="@color/Yellow"
+            android:ellipsize="end"
             android:fontFamily="casual"
             android:gravity="center"
+            android:inputType="textPassword"
             android:isScrollContainer="false"
+            android:maxLines="1"
             android:paddingStart="10dp"
             android:shadowColor="#FF0000"
             android:shadowRadius="10"
-            android:text="Confirm Password"
+            android:text="Password"
             android:textColor="#000000"
             android:textColorHint="#FF0000"
             android:textSize="16sp"
             app:iconGravity="end"
             app:iconTint="#00FFFFFF"
             app:iconTintMode="src_atop" />
+
+        <Button
+            android:id="@+id/adresse"
+            android:layout_width="299dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/Yellow"
+            android:ellipsize="end"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:isScrollContainer="false"
+            android:maxLines="1"
+            android:paddingStart="10dp"
+            android:shadowColor="#FF0000"
+            android:shadowRadius="10"
+            android:text="Adresse"
+            android:textColor="#000000"
+            android:textColorHint="#FF0000"
+            android:textSize="16sp"
+            app:iconGravity="end"
+            app:iconTint="#00FFFFFF"
+            app:iconTintMode="src_atop" />
+
+        <Button
+            android:id="@+id/name"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/Yellow"
+            android:ellipsize="end"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:isScrollContainer="false"
+            android:maxLines="1"
+            android:paddingStart="10dp"
+            android:shadowColor="#FF0000"
+            android:shadowRadius="10"
+            android:text="Nom Complet"
+            android:textColor="#000000"
+            android:textColorHint="#FF0000"
+            android:textSize="16sp"
+            app:iconGravity="end"
+            app:iconTint="#00FFFFFF"
+            app:iconTintMode="src_atop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A6000000"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_male"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:textColor="#FABB00"
+                    android:textColorHighlight="#FABB00"
+                    android:textColorHint="#FABB00"
+                    android:textColorLink="#FABB00"
+
+                    />
+
+                <RadioButton
+                    android:id="@+id/radio_female"
+                    android:layout_width="131dp"
+                    android:layout_height="wrap_content"
+                    android:shadowColor="#A80F0F"
+                    android:text="Female"
+                    android:textColor="#FABB00"
+                    android:textColorHighlight="#FABB00"
+                    android:textColorHint="#FABB00"
+                    android:textColorLink="#FABB00" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
 
         <LinearLayout
             android:layout_width="match_parent"
