@@ -36,6 +36,8 @@
             android:background="?android:attr/listDivider" />
 
         <Button
+            android:ellipsize="end"
+            android:maxLines="1"
             android:id="@+id/login"
             android:layout_width="303dp"
             android:layout_height="wrap_content"
@@ -56,6 +58,9 @@
             app:iconTintMode="src_atop" />
 
         <Button
+            android:inputType="textPassword"
+            android:ellipsize="end"
+            android:maxLines="1"
             android:id="@+id/password"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
@@ -76,6 +81,9 @@
             app:iconTintMode="src_atop" />
 
         <Button
+            android:inputType="textPassword"
+            android:ellipsize="end"
+            android:maxLines="1"
             android:id="@+id/cpassword"
             android:layout_width="300dp"
             android:layout_height="wrap_content"

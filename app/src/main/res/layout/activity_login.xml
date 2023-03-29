@@ -33,9 +33,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:backgroundTint="@color/design_default_color_error"
+        android:ellipsize="end"
         android:fontFamily="casual"
         android:gravity="center"
         android:isScrollContainer="false"
+        android:maxLines="1"
         android:paddingStart="10dp"
         android:shadowColor="#FF0000"
         android:shadowRadius="10"
@@ -48,6 +50,9 @@
         app:iconTintMode="src_atop" />
 
     <Button
+        android:inputType="textPassword"
+        android:ellipsize="end"
+        android:maxLines="1"
         android:id="@+id/password"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
@@ -83,6 +88,7 @@
             android:src="@drawable/d9y5gdr_97ee3d62_9ada_4935_b6f8_df92878502df" />
 
         <Button
+
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -135,6 +141,7 @@
             app:srcCompat="@drawable/scarlet_la_espada_dorada" />
 
         <Button
+
             android:id="@+id/button5"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
