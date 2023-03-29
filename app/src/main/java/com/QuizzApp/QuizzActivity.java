@@ -5,6 +5,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -149,12 +150,10 @@ public class QuizzActivity extends AppCompatActivity {
         CurrentPage++;
         finishedQuestions.add(currentQuestionIndex);
         if(CurrentPage==7){
-            answer1.setVisibility(View.INVISIBLE);
-            answer2.setVisibility(View.INVISIBLE);
-            answer3.setVisibility(View.INVISIBLE);
-            answer4.setVisibility(View.INVISIBLE);
-            Question.setText("Your score is "+score);
-            PageNumberButton.setText("Finish");
+            Intent intent = new Intent(QuizzActivity.this, ScoreActivity.class);
+            String sc=String.valueOf(score);
+            intent.putExtra("score",sc);
+            startActivity(intent);
         }
     }
 

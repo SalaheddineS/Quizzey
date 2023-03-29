@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         btnStart = findViewById(R.id.button);
         btnStart.setOnClickListener(v -> {
             try {
-                startActivity(new Intent(MainActivity.this,LanguageActivity.class));
+                startActivity(new Intent(MainActivity.this,LognActivity.class));
             }
             catch (Exception e) {
                 e.printStackTrace();

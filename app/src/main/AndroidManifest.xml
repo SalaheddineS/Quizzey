@@ -26,6 +26,7 @@
         <activity android:name=".LanguageActivity" />
         <activity android:name=".LevelActivity" />
         <activity android:name=".QuizzActivity" />
+        <activity android:name=".ScoreActivity" />
     </application>
 
 </manifest>
